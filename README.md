@@ -4,7 +4,7 @@ My first React application.
 
 ## Work in progress
 
-I have intetion to work more on styling.
+I have intention to work more on styling.
 
 ## How to run it
 
