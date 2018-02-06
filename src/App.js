@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
-import Container from './Container'
+import Container from './containers/Container'
 import Button from './components/Button'
 import MainGame from './MainGame'
 import './App.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import RaisedButton from 'material-ui/RaisedButton';
 
 const alphabet = 'abcdefghijklm'.split('').map(function(el){
   return { name: `${el}` }
@@ -26,7 +25,6 @@ class App extends Component {
         <Container buttons= { alphabet } />
         <Container buttons= { alphabet2 } />
         <MainGame />
-
         <p><Button name= "Start" /><Button name= "Restart" /></p>
       </div>
       </MuiThemeProvider>
