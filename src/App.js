@@ -25,7 +25,7 @@ class App extends Component {
         <Container buttons= { alphabet } />
         <Container buttons= { alphabet2 } />
         <MainGame />
-        <p><Button name= "Start" /><Button name= "Restart" /></p>
+        <div><Button name= "Start" /><Button name= "Restart" /></div>
       </div>
       </MuiThemeProvider>
     );

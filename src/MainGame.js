@@ -14,7 +14,7 @@ class MainGame extends PureComponent {
 		return (
 			<div>
 				<main>
-					<p>{this.props.letter.word}</p>
+					<div>{this.props.letter.word}</div>
 					{this.theEndMessage()}
 				</main>
 			</div>

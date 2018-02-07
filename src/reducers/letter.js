@@ -67,6 +67,7 @@ export default function (state = initialState, { type, payload } = {}) {
     case ADDING_LETTER:
 
       const updatedGuesses = [payload, ...state.guesses]
+      console.log(updatedGuesses)
       const updatedwinLosePlay = next(unknown, updatedGuesses)
       const updatedWord = showGuess(unknown, updatedGuesses)
 
